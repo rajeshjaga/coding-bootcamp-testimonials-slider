@@ -100,10 +100,10 @@ body {
 .main .person .desc {
     position: absolute;
     left: 1em;
-    padding:4em 2em;
+    padding: 4em 2em;
 }
 
-.second {
+.main .person.second {
     display: none;
 }
 
@@ -146,47 +146,46 @@ body {
         top: 90vh;
         transform: scale(0.5);
     }
-    body{
-        font-size:20px;
+    body {
+        font-size: 20px;
     }
     .curve {
         bottom: 0;
     }
     .big-svg {
         height: 50vh;
-        left:10vw;
-        right:50%;
-        margin-top:-20vh;
+        left: 10vw;
+        right: 50%;
+        margin-top: -20vh;
     }
     .main .person img {
         width: 75vw;
-        margin-left:0;
+        margin-left: 0;
         margin-top: 10vh;
         height: auto;
     }
     .main .person {
-        padding:0em 0em;
+        padding: 0em 0em;
     }
-    .main .person .desc{
-        margin-top:50vh;
-
+    .main .person .desc {
+        margin-top: 50vh;
     }
-    .main .person .desc p{
-        max-width:100%;
-        padding:0;
-        text-align:center;
+    .main .person .desc p {
+        max-width: 100%;
+        padding: 0;
+        text-align: center;
     }
-    .buttons{
-        top:50vh;
-        left:50%;
-        transform:translateX(-50%);
+    .buttons {
+        top: 50vh;
+        left: 50%;
+        transform: translateX(-50%);
     }
-    .buttons .button-container{
-        width:5em;
-        padding:1em 0.7em;
+    .buttons .button-container {
+        width: 5em;
+        padding: 1em 0.7em;
     }
-    .persona{
-        flex-direction:column;
-        padding-top:1.2em;
+    .persona {
+        flex-direction: column;
+        padding-top: 1.2em;
     }
 }
