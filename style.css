@@ -109,7 +109,7 @@ body {
 
 .buttons {
     position: absolute;
-    top: 80vh;
+    top: 77%;
     left: 60%;
     z-index: 999;
     background-color: white;
@@ -147,30 +147,46 @@ body {
         transform: scale(0.5);
     }
     body{
-        font-size:18px;
+        font-size:20px;
     }
     .curve {
         bottom: 0;
     }
     .big-svg {
-        height: 35vh;
-        left:0vw;
+        height: 50vh;
+        left:10vw;
         right:50%;
-        top:20vh;
+        margin-top:-20vh;
     }
     .main .person img {
-        width: auto;
-        margin: 0 auto;
+        width: 75vw;
+        margin-left:0;
         margin-top: 10vh;
-        height: 50vh;
+        height: auto;
     }
     .main .person {
-        padding:0em 2em;
+        padding:0em 0em;
     }
     .main .person .desc{
-        margin-top:60vh;
+        margin-top:50vh;
+
     }
     .main .person .desc p{
-        min-width:80%;
+        max-width:100%;
+        padding:0;
+        text-align:center;
+    }
+    .buttons{
+        top:50vh;
+        left:50%;
+        transform:translateX(-50%);
+    }
+    .buttons .button-container{
+        width:5em;
+        padding:1em 0.7em;
+    }
+    .persona{
+        flex-direction:column;
+        padding-top:1.2em;
     }
 }
